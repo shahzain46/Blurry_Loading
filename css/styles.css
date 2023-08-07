@@ -1,0 +1,31 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:serif sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg{
+    background: url('../asets/img/portrait-siberian-husky-with-different-colored-eyes-black-background_181624-40661.avif') no-repeat center center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vw + 60px);
+    z-index: -1;
+    filter: blur(0px);
+  
+
+}
+.loading-text{
+    font-size: 50px;
+    color: #fff;
+}
